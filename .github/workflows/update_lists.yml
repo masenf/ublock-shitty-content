@@ -13,11 +13,11 @@ jobs:
         run: sh ./searchfilter.sh
 #      - name: switching from HTTPS to SSH
 #        run: git remote set-url origin ${{ secrets.ssh }}
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git commit -m "Auto updating output filter lists"
-      - name: push branch
-        run: git push
+      - name: git ops
+        run: |
+          git status
+          git config --global user.email "m_github@0x26.net"
+          git config --global user.name "Masen Furer's action"
+          git add .
+          git commit -m "Auto update output filter lists"
+          git push 
