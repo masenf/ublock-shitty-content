@@ -1,9 +1,10 @@
 pretagteam.com
 pinterest.com
 newbedev.com
-*w3schools.net
+.w3schools.net
 pythontutorial.net
 pythonspot.com
 pythonbasics.org
 itsmycode.com
 appdividend.com
+realpython.com
