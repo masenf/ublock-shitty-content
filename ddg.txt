@@ -1,0 +1,2 @@
+duckduckgo.com##.result[data-domain$="pretagteam.com"]
+duckduckgo.com##.result[data-domain$="pinterest.com"]

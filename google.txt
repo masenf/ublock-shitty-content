@@ -1,0 +1,4 @@
+google.*##.g:has(a[href*="pretagteam.com"])
+google.*##a[href*="pretagteam.com"]:nth-ancestor(1)
+google.*##.g:has(a[href*="pinterest.com"])
+google.*##a[href*="pinterest.com"]:nth-ancestor(1)

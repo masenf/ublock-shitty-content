@@ -1,0 +1,4 @@
+ecosia.*##.g:has(a[href*="pretagteam.com"])
+ecosia.*##a[href*="pretagteam.com"]:nth-ancestor(1)
+ecosia.*##.g:has(a[href*="pinterest.com"])
+ecosia.*##a[href*="pinterest.com"]:nth-ancestor(1)
